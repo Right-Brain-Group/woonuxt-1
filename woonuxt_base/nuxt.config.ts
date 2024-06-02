@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   'graphql-client': {
     clients: {
       default: {
-        host: process.env.GQL_HOST || 'http://localhost:4000/graphql',
+        host: process.env.GQL_HOST || 'https://woonuxt-1.vercel.app/graphql',
         corsOptions: { mode: 'cors', credentials: 'include' },
       },
     },
